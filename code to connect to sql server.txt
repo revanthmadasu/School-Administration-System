@@ -1,0 +1,4 @@
+try
+		{
+			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+			Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=Student;integratedSecurity=true;");

@@ -1,0 +1,3 @@
+try{
+			Class.forName("org.sqlite.JDBC");
+            Connection con = DriverManager.getConnection("jdbc:sqlite:D:\\projects\\School\\source\\student.db");
